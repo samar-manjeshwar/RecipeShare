@@ -1,0 +1,44 @@
+body{
+    background-color: beige;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headingimg{
+    height:75px;
+    width: 75px;
+    float:left;
+}
+#headertext{
+    color: darkgreen;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 27px;
+}
+#mainheading{
+    background: linear-gradient(lightgreen,beige);
+}
+
+#regform{
+    margin-left: 20%;
+    margin-right: 40%;
+    background: linear-gradient(lightgreen,beige);
+}
+#formtext{
+    float: left;
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+#formitem{
+    border-radius: 50px;
+    border-width: thin;
+    
+}
+#regbutton{
+    border-radius: 100px;
+    background-color: beige;
+    border-width: medium;
+}

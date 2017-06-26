@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>RecipeShare</title>
+        <link rel="icon" href="Images/title.ico" type="image/gif/png"/>
+    </head>
+<body>
+    <link rel="stylesheet" href="Styles/homePageStyle.css" type="text/css" />
+    
+    <div id="header">
+        <a href="homePage.html">
+        <img id="headerimg" src="Images/headerimg.jpg"/>
+        </a>
+        <p id="headertext">Welcome to RecipeShare</p>
+    </div>
+    
+
+    
+    <div id="about" >
+    <p id="pabout">About</p>
+        <ul>
+        <li id="aboutlist">Look up amateur recipes</li>
+            <br>
+        <li id="aboutlist">Post amateur recipes</li>
+            <br>
+        <li id="aboutlist">Write reviews</li>
+            <br>
+        </ul>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
+    <div>
+        <table  id="logintable">
+            <tr>
+            <td><p id="inputlabel">Email</p></td>
+            <td><input type="text" id="loginiput"></td>
+            </tr>
+            <tr>
+            <td><p id="inputlabel">Password</p></td>
+            <td><input type="password" id="loginiput"></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td colspan="2" merge="2"><input id="submitbutton" type="submit" value="Login"/></td>
+            </tr>
+            <td></td>
+            <td><input type="button" value="Register" id="submitbutton" onclick="window.location.href='Register.html'"/></td>
+        </table>
+    </div>
+    
+    <br>
+    <br>
+    
+    <div id="map">
+        
+    </div>
+    
+    <footer id="loginfooter">
+    Developed by Samar Manjeshwar
+        <br>
+    <a href= "mailto:sam.manjeshwar@gmail.com">sam.manjeshwar@gmail.com</a>
+        <br>
+        <address>
+        1636 A,<br>
+        Marina Ct,<br>
+        San Mateo, CA 94403
+        </address>
+    </footer>
+    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqTxj-3oVmKeJrg9SZTKLx_7WfyKExsGE&callback=initMap">
+    </script>
+    
+    <script>
+      function initMap() {
+        var MarinaCt = {lat: 37.550947 ,
+              lng: -122.285839};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: MarinaCt
+        });
+        var marker = new google.maps.Marker({
+          position: MarinaCt,
+          map: map
+        });
+      }
+    </script>
+    
+    
+    
+</body>
+</html>

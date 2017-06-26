@@ -1,0 +1,85 @@
+body{
+    background-color:beige;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body > h1{
+    font-family:cursive;
+}
+
+#header{
+    background: linear-gradient(lightgreen,beige);
+}
+#headerimg{
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+#headertext{
+    font-size: 27px;
+    font-family: cursive;
+    font-weight: bold;
+    color: darkgreen;
+    
+}
+
+#about{
+    float: right;
+    background: linear-gradient(lightgreen,beige);
+}
+#pabout{
+    font-family: cursive;
+    color: darkgreen;
+}
+#pabout > ul{
+    font-family: cursive;
+}
+#aboutlist{
+    font-family: cursive;
+    color: darkgreen;
+}
+
+#logintable{
+    
+    margin: auto;
+    width: 50%;
+    border-color: darkgreen;
+    border: 12px;
+    background: linear-gradient(lightgreen,beige);
+    
+}
+#logininput{
+    background: radial-gradient(white,beige);
+    border-color: beige;
+}
+#inputlabel{
+    font-family: cursive;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+#submitbutton{
+    
+    border-radius: 50px;
+    background-color: beige;
+    border-color: beige;
+}
+
+#loginfooter{
+    float: left;
+    float: bottom;
+    border-style: inset;
+    
+}
+
+#map{
+    float: right;
+    width: 40%;
+    height: 200px;
+    margin-bottom: 50px;
+    border: 2px;
+    border-style: inset;
+    border-color: black;
+}
